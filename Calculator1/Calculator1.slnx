@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Cpp Learning.vcxproj" Id="203e91b1-2745-480e-a843-829e34265218" />
+  <Project Path="Calculator1.vcxproj" Id="84e6a034-011b-48bb-91f0-ddf5ef0d5973" />
 </Solution>
