@@ -22,20 +22,20 @@ int getUserAge(std::string_view user)
 	return age;
 }
 
-void compareAgesAndPrintResult(int age1, int age2,std::string_view name1,std::string_view name2)
+void compareAgesAndPrintResult(int age1, int age2, std::string_view name1, std::string_view name2)
 {
 	if (age1 == age2)
 		std::cout << "Both people have the same age of " << age1 << ".";
 	else if (age1 > age2)
 		std::cout << name1 << " (age " << age1 << ") is older than " << name2 << " (age " << age2 << ").";
-	else 
+	else
 		std::cout << name2 << " (age " << age2 << ") is older than " << name1 << " (age " << age1 << ").";
 
 }
 
-int main() 
+int main()
 {
-	int x{1};
+	int x{ 1 };
 	std::string nameP1{ getUserName(x) };
 	int ageP1{ getUserAge(nameP1) };
 
